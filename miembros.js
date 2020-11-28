@@ -2,7 +2,7 @@ const carolina = document.getElementsByClassName("PCaro")[0];
 const matias = document.getElementsByClassName("PMatias")[0];
 const grez = document.getElementsByClassName("PGrez")[0];
 const santiago = document.getElementsByClassName("PSantiago")[0];
-const Pepe = document.getElementsByClassName("PPepe")[0];
+const pepe = document.getElementsByClassName("PPepe")[0];
 
 
 carolina.addEventListener("mouseover", ()=>{
@@ -77,10 +77,10 @@ pepe.addEventListener("mouseover", ()=>{
     descripcion.innerHTML = "Pepe estudia Ingeniería Civil y esta actualmente en tercer año. Ahora nos deja para irse a España :(."
 });
 pepe.addEventListener("mouseout",()=>{
-    santiago.getElementsByTagName("img")[0].style = "filter:brightness(1);";
-    const name = santiago.getElementsByClassName("PPepen")[0];
-    const descripcion = santiago.getElementsByClassName("descripcion")[0];
-    name.innerHTML = "Santiago"
+    pepe.getElementsByTagName("img")[0].style = "filter:brightness(1);";
+    const name = pepe.getElementsByClassName("PPepen")[0];
+    const descripcion = pepe.getElementsByClassName("descripcion")[0];
+    name.innerHTML = "Pepe"
     descripcion.innerHTML = ""
 
 })
