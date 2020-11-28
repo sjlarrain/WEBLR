@@ -56,7 +56,7 @@ miercoles3.addEventListener("mouseover",()=>{
     miercoles.style = "background-color:black;";
     const nodo = miercoles.getElementsByClassName("informacion")[0];
     nodo.innerHTML = "<p>Busca desarrollar la creatividad, visibilizar que un mismo planteamiento tiene muchas respuestas, trabajar la reacción y respuesta rápida frente a distintas situacione</p>";
-    nodo.innerHTML += "<p>Se hace una pregunta y los miembros por su cuenta escriben una solución. Despues se comparte esa solución y se vota por cual es la mejor.</p>"
+    nodo.innerHTML += "<p>Se hace una pregunta y los miembros por su cuenta escriben una solución. Despues se comparte esa solución y se vota por cual es la mejor. </p>"
 })
 
 
