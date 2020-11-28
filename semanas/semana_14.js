@@ -5,14 +5,14 @@ const lunes3 = lunes.getElementsByClassName("three")[0];
 const miercoles = document.getElementsByClassName("Miercoles")[0]
 const miercoles1 = miercoles.getElementsByClassName("one")[0];
 const miercoles2 = miercoles.getElementsByClassName("two")[0];
-const miercoles3 = viernes.getElementsByClassName("three")[0];
+const miercoles3 = miercoles.getElementsByClassName("three")[0];
 const viernes = document.getElementsByClassName("Viernes")[0];
 const viernes1 = viernes.getElementsByClassName("one")[0];
 const viernes2 = viernes.getElementsByClassName("two")[0];
 const viernes3 = viernes.getElementsByClassName("three")[0];
 
 
-unes1.addEventListener("mouseover", ()=>{
+lunes1.addEventListener("mouseover", ()=>{
     lunes.style = "background-color:black;";
     const nodo = lunes.getElementsByClassName("informacion")[0];
     nodo.innerHTML = "<p>Tiene como objetivo socializar y conocerse mejor.</p>";
