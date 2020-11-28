@@ -1,0 +1,204 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 7%; 
+    background-color: coral;
+    font-family: fantasy;
+    text-align: center;
+}
+.BarraNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: cornsilk;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    text-align: center;
+    max-width: 500px;
+}
+.IContainer {
+    margin-top: 20px;
+    background-color: crimson;
+    padding: 20px;
+}
+.ITitulo {
+   font-size: 3cm;
+   margin-bottom: 20px;
+}
+.ISubtitulo {
+    margin-bottom: 20px;
+}
+.IPortada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 1000px;
+}
+
+.IFotos {
+    padding: 20px;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: darkred;
+}
+
+.IFotoAlumnos {
+    padding: 20px;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: darkred;
+}
+
+.ISemanas{
+    padding: 20px;
+    max-width: 300px;
+    min-height: 400px;
+    background-color: darkred;
+}
+
+.vinculo {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: azure;
+}
+
+.Firma {
+    padding: 20px;
+}
+
+/* Semanas.html */
+.SContenedor, .PContainer {
+    margin-top: 20px;
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+}
+.sub-contenedor {
+    display:grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    
+}
+.Mes{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: azure;
+    max-height: 50px;
+    max-width: 800px;
+    padding: 20px;
+}
+.Semana{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+/* Miembros */
+.Equipo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px
+}
+
+.PCaron, .PMatiasn, .PGrezn, .PSantiagon {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.PCaro, .PMatias, .PGrez, .PSantiago {
+    position: relative;
+    text-align: center;
+    max-width: 200px;
+    max-height: 500px;
+    color: red;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.descripcion {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+/* Template */
+.botones{
+    position:relative;
+    margin-bottom: 20px;
+}
+.anterior{
+    position: absolute;
+    top: 10%;
+    left:10%;
+}
+.posterior{
+    position: absolute;
+    top:10%;
+    right: 10%
+}
+
+.XContainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    text-align: center;
+}
+.Lunes, .Miercoles, .Viernes {
+    background-color: darkred;
+    max-width:300px;
+    min-height:400px ;
+}
+
+.dia {
+    background-color: dimgray;
+    font-size: 0.5cm;
+}
+
+.actividades {
+    /* padding: 10%; */
+    font-size: 1cm;
+    color: black
+}
+
+.doble{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.triple {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.cuadruple {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.informacion {
+    color: white;
+}
+.one, .two .three .forth{
+    position:relative;
+}
+
+.descanso {
+    background-color: darkred;
+    max-width: 900px ;
+    min-height: 400px;
+    font-size: 3cm;
+    color:white
+}
+.SRContainer {
+    padding:20px;
+}
