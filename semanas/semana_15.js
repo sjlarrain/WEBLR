@@ -80,21 +80,22 @@ miercoles3.addEventListener("mouseout",()=>{
 viernes1.addEventListener("mouseover",()=>{
     viernes.style = "background-color:black;";
     const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = "<p>Es igual a Bachillerato pero es online</p>"
+    nodo.innerHTML = "<p>El juego tiene como objetivos Mejorar la confianza y comunicación entre los compañeros y grupos de trabajo; potencia el desarrollo de la creatividad mediante la elaboración de historias de manera espontánea. Ademas se evalua al compañero, y fortaleciendo las habilidades críticas y evaluativas.</p>"
+    nodo.innerHTML += "<p>Hay unas cartas (des su gusto) con distintas figuras enumeradas. Se roda un dado tres veces para ver que cartas se ocupan para recrear la historia. Luego los compañeros evaluan la creatividad y la coherencia de la historia.</p>"
 })
 
 viernes2.addEventListener("mouseover",()=>{
     viernes.style = "background-color:black;";
     const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = "<p>Tiene como objetivo el trabajo en equipo, creatividad, compartir, socializar y desarrollar comunicación no verbal.</p>";
-    nodo.innerHTML += "<p>Hay que lograr comunicar una palabra a través de descripciones y actuaciones.</p>"
+    nodo.innerHTML = "<p>Busca potenciar la capacidad de atención y concentración, desarrollar el valor de la honestidad y trabajar la memoria</p>";
+    nodo.innerHTML += "<p>Se ocupa un mazo de 52 cartas y se reparten 5 a cada uno de los 4 jugadores una vez barajadas. Luego el jugador pide cartas y debe lograr hacer conjuntos de cartas al juntar las cuatro pintas.</p>"
 })
 
 viernes3.addEventListener("mouseover",()=>{
     viernes.style = "background-color:black;";
     const nodo = viernes.getElementsByClassName("informacion")[0];
     nodo.innerHTML = "<p>Tiene como objetivo fortalecer la memoria, concentración, trabajar la tolerancia a la frustración.</p>";
-    nodo.innerHTML += "<p>Consiste en acertar a una canción una vez de escucharla.</p>"
+    nodo.innerHTML += "<p>Se roda un dado y cada dado tiene una penitencia o juego asignado al gusto de los jugadores.</p>"
 })
 
 
