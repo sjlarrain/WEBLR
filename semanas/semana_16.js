@@ -117,19 +117,19 @@ viernes1.addEventListener("mouseover",()=>{
     nodo.innerHTML = "<p>En el juego se intentaba identificar los del tremendo curso que tuvimos el 2020.</p>"
 })
 
-viernes2.addEventListener("mouseover",()=>{
-    viernes.style = "background-color:black;";
-    const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = "<p>Tiene como objetivo el trabajo en equipo, creatividad, compartir, socializar y desarrollar comunicación no verbal.</p>";
-    nodo.innerHTML += "<p>Hay que lograr comunicar una palabra a través de descripciones y actuaciones.</p>"
-})
+// viernes2.addEventListener("mouseover",()=>{
+//     viernes.style = "background-color:black;";
+//     const nodo = viernes.getElementsByClassName("informacion")[0];
+//     nodo.innerHTML = "<p>Tiene como objetivo el trabajo en equipo, creatividad, compartir, socializar y desarrollar comunicación no verbal.</p>";
+//     nodo.innerHTML += "<p>Hay que lograr comunicar una palabra a través de descripciones y actuaciones.</p>"
+// })
 
-viernes3.addEventListener("mouseover",()=>{
-    viernes.style = "background-color:black;";
-    const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = "<p>Tiene como objetivo fortalecer la memoria, concentración, trabajar la tolerancia a la frustración.</p>";
-    nodo.innerHTML += "<p>Consiste en acertar a una canción una vez de escucharla.</p>"
-})
+// viernes3.addEventListener("mouseover",()=>{
+//     viernes.style = "background-color:black;";
+//     const nodo = viernes.getElementsByClassName("informacion")[0];
+//     nodo.innerHTML = "<p>Tiene como objetivo fortalecer la memoria, concentración, trabajar la tolerancia a la frustración.</p>";
+//     nodo.innerHTML += "<p>Consiste en acertar a una canción una vez de escucharla.</p>"
+// })
 
 
 viernes1.addEventListener("mouseout",()=>{
@@ -138,12 +138,12 @@ viernes1.addEventListener("mouseout",()=>{
     nodo.innerHTML = ""
 })
 
-viernes2.addEventListener("mouseout",()=>{
-    viernes.style = "background-color:darkred;";
-    const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = ""})
+// viernes2.addEventListener("mouseout",()=>{
+//     viernes.style = "background-color:darkred;";
+//     const nodo = viernes.getElementsByClassName("informacion")[0];
+//     nodo.innerHTML = ""})
 
-viernes3.addEventListener("mouseout",()=>{
-    viernes.style = "background-color:darkred;";
-    const nodo = viernes.getElementsByClassName("informacion")[0];
-    nodo.innerHTML = ""})
+// viernes3.addEventListener("mouseout",()=>{
+//     viernes.style = "background-color:darkred;";
+//     const nodo = viernes.getElementsByClassName("informacion")[0];
+//     nodo.innerHTML = ""})
